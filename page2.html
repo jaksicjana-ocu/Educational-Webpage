@@ -2,112 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Productivity Tools and Study Techniques</title>
+  <title>Productivity Tools & Study Techniques</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <!-- Header section -->
-  <header>
-    <nav aria-label="Main Navigation">
-  <a href="index.html">Home</a>
-  <a href="page2.html">Productivity Tools</a>
-    </nav>
-
-  
-
-    <h1>Productivity Tools & Study Techniques</h1>
-    <h2>Practical strategies you can use every day</h2>
-  </header>
-
-  <!-- Main content -->
-  <main id="main-content">
-
-    <!-- Introduction section -->
-    <section class="content-section">
-      <h2>Popular Study Techniques</h2>
-      <p>
-        Using effective study techniques helps college students understand material
-        more deeply, manage time better, and reduce stress before exams.
-      </p>
-    </section>
-
-    <!-- Highlighted section -->
-    <section class="content-section highlight">
-      <h2>Time Management Tools</h2>
-      <p>
-        Digital tools such as calendars, task managers, and note-taking apps allow
-        students to organize assignments, track deadlines, and stay consistent.
-      </p>
-    </section>
-
-    <!-- Informational content -->
-    <section class="content-section">
-      <p>
-        Many students struggle not because they lack ability, but because they lack
-        structure. Productivity tools create routines that make studying feel more
-        manageable.
-      </p>
-    </section>
-
-    <!-- Image section -->
-    <section class="content-section">
-      <img
-        src="images/2024-01-stay-active-as-a-college-student.jpg"
-        alt="College students studying together outdoors to maintain productivity and balance"
-
-        width="400">
-    </section>
-
-    <!-- Unordered list -->
-    <section class="content-section">
-      <h3>Helpful Productivity Tools</h3>
-      <ul>
-        <li>Google Calendar</li>
-        <li>Notion</li>
-        <li>Pomodoro timers</li>
-        <li>Task management apps</li>
-      </ul>
-    </section>
-
-    <!-- Ordered list -->
-    <section class="content-section">
-      <h3>Daily Productivity Routine</h3>
-      <ol>
-        <li>Plan tasks the night before</li>
-        <li>Work in focused time blocks</li>
-        <li>Eliminate distractions</li>
-        <li>Reflect on progress</li>
-      </ol>
-    </section>
-
-    <!-- Flexbox layout section -->
-    <section class="flex-container">
-      <div class="flex-box">
-        <h3>Digital Tools</h3>
-        <p>
-          Apps like Notion and Google Calendar help students organize assignments
-          and manage deadlines efficiently.
-        </p>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Productivity</a>
+      <div>
+        <a class="nav-link d-inline text-white" href="index.html">Home</a>
       </div>
+    </div>
+  </nav>
 
-      <div class="flex-box">
-        <h3>Study Methods</h3>
-        <p>
-          Techniques such as active recall and spaced repetition improve memory
-          and long-term understanding.
-        </p>
-      </div>
-    </section>
+  <!-- Main Container -->
+  <main class="container mt-4">
+
+    <header class="text-center mb-4">
+      <h1>Productivity Tools & Study Methods</h1>
+      <p class="lead">Practical systems that help students stay consistent</p>
+    </header>
+
+    <!-- Bootstrap Grid -->
+    <div class="row g-4">
+
+      <section class="col-md-6">
+        <div class="card p-3 h-100">
+          <h2>Digital Productivity Tools</h2>
+          <ul>
+            <li>Google Calendar for scheduling</li>
+            <li>Notion for organization</li>
+            <li>Pomodoro timer apps</li>
+            <li>Task management apps</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="col-md-6">
+        <div class="card p-3 h-100">
+          <h2>Effective Study Techniques</h2>
+          <ol>
+            <li>Active recall practice</li>
+            <li>Spaced repetition</li>
+            <li>Time blocking</li>
+            <li>Weekly progress reviews</li>
+          </ol>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Image Section -->
+    <div class="text-center mt-4">
+      <img src="images/2024-01-stay-active-as-a-college-student.jpg"
+           alt="College students studying together and collaborating outdoors"
+           class="img-fluid rounded shadow">
+    </div>
+
+    <!-- Button to return -->
+    <div class="text-center mt-4">
+      <a href="index.html" class="btn btn-success btn-lg">
+        Return to Productivity Habits Overview
+      </a>
+    </div>
 
   </main>
 
   <!-- Footer -->
-  <footer id="page-footer">
-    <p>© 2026 Educational Webpage</p>
-    <a href="index.html">Return to productivity habits overview</a>
-
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    © 2026 Educational Webpage
   </footer>
 
 </body>
