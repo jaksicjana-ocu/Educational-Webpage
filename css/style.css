@@ -4,27 +4,40 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #fff0f6;   /* very light pink background */
 }
 
 /* Custom Header Styling */
 h1 {
-  color: #1f3a56;
+  color: #c2185b;   /* strong pink heading */
 }
 
 /* Custom Card Enhancement */
 .card {
   border-radius: 12px;
+  border: none;
 }
 
 /* Custom Footer */
 footer {
   font-size: 14px;
+  background-color: #c2185b;   /* pink footer */
+  color: white;
+}
+
+/* Optional: Custom Button Color */
+.btn-primary {
+  background-color: #e91e63;
+  border-color: #e91e63;
+}
+
+.btn-primary:hover {
+  background-color: #c2185b;
+  border-color: #c2185b;
 }
 
 /* ================================= */
 /* Remove Old Flexbox Layout */
-/* (Commented out because Bootstrap Grid replaces it) */
 /*
 .flex-container {
   display: flex;
